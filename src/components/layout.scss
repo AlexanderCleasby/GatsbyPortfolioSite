@@ -1,14 +1,11 @@
+$background:rgb(255, 255, 255);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-}
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-article,
+  background-color: $background;
+  color:rgba(114, 255, 173, 0.9);
+}article,
 aside,
 details,
 figcaption,

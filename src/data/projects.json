@@ -1,0 +1,11 @@
+[{
+    "name": "Custom Dash",
+    "description": "React app for tracking how users spend their time using a responsive day planner and charts. App served from Express, MongoDB used for the database.",
+    "stack":["rails","react","postgres"]
+},
+{
+    "name":"Taskaroo",
+    "description":"ksdjf",
+    "stack":["rails","js"]
+}
+]

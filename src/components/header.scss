@@ -1,0 +1,41 @@
+$gradient: linear-gradient(217deg, rgba(255,255,54,.9), rgba(255,255,54,.2) 70.71%),
+linear-gradient(127deg, rgba(29,255,217,.9), rgba(29,255,217,.2) 70.71%),
+linear-gradient(336deg, rgba(114, 255, 173, 0.9), rgba(114, 255, 173, .2) 70.71%);
+$background:rgb(255, 255, 255);
+.logo{
+    width:200px;
+    height: 200px;
+    padding: 5px;
+    margin:10px;
+    background: $gradient;
+    border-radius: 5%;
+    cursor: default;
+    .inner{
+        width:90%;
+        height: 90%;
+        margin:5%;
+        background-color: $background;
+    }
+    .inner h1{
+        text-align: center;
+        font-family: 'Fascinate Inline', cursive;
+        line-height: 160px;
+        font-size: 200px;
+        background: $gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.siteTitle{
+    text-align: center;
+    font-size: 9vw;
+    font-family: 'Fascinate Inline', cursive;
+}
+
+header{
+    border-bottom: black solid 2px;
+    width:100%;
+    display: flex;
+    margin-bottom: 50px;;
+}

@@ -1,0 +1,87 @@
+.screen {
+    border-radius: 50px;
+}
+
+
+
+.macintosh {
+    .top {
+        background-color: #7d765b;
+        border-radius: 50px;
+        padding: 3%;
+    }
+
+    .screen{
+        width:100%;
+        height: 500px;
+        background-color: black;
+        position: relative;
+        .logo{
+            .inner{
+                background-color: black;
+            }
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -50%;
+            transform: translate(-50%, -50%);
+            margin: 0;
+        }
+    }
+
+    .lower {
+        height: 200px;
+        border-radius: 0px 0px 20px 20px;
+        position: relative;
+        .floppy {
+            background-color: rgb(54, 54, 54);
+            width: 25%;
+            height: 10px;
+            float: right;
+            position: absolute;
+            right:0%;
+            top: 50%;
+        }
+
+        .apple {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            left: 10%;
+        }
+    }
+
+    padding:3%;
+    background: linear-gradient(#b1aa8a,#c7bf9d);
+    border-radius:2.5%;
+}
+
+.base {
+    height: 140px;
+    
+    width: 95%;
+    margin: 0 auto;
+    background: linear-gradient(#7e785a,#585540);
+    border-radius: 0px 0px 20px 20px;
+}
+
+@media only screen and (max-width: 960px) {
+    .macintosh {
+       
+        .lower {
+            height: 100px;
+        }
+        .floppy{
+            top:25%;
+        }
+        .screen{
+            height:250px;
+        }
+    }
+
+    .base {
+        height: 70px;
+    }
+}
