@@ -1,3 +1,5 @@
+@import '../variables.scss';
+
 .project{
     margin-bottom:30px;
     cursor: default;
@@ -27,9 +29,15 @@
 }
 
 .slides{
-    border: 5px solid black;
+    padding: 7px;
+    background: $gradient;
+    background-size: 400% 100%;
+    animation: gradient-anim 3s alternate infinite;
     position: relative;
     margin-bottom: 10px;
+    .gatsby-image-wrapper{
+        background-color: white;
+    }
     button{
         position: absolute;
         top:50%;
