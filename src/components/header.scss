@@ -8,6 +8,8 @@
     background: $gradient;
     border-radius: 5%;
     cursor: default;
+    background-size: 400% 100%;
+    animation: gradient-anim 3s alternate infinite;
     .inner{
         width:90%;
         height: 90%;
@@ -20,6 +22,8 @@
         line-height: 160px;
         font-size: 200px;
         background: $gradient;
+        background-size: 400% 100%;
+        animation: gradient-anim 3s alternate infinite;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
