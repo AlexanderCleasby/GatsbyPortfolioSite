@@ -14,6 +14,7 @@ const Projects = () => (
           nodes {
             description
             name
+            stack
           }
         }
       }

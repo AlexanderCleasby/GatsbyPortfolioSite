@@ -9,7 +9,7 @@ import Monitor from '../components/monitor'
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <SEO title="Home" />
     <Monitor />
     <Projects />
   </Layout>

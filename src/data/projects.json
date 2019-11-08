@@ -1,11 +1,20 @@
 [{
     "name": "Custom Dash",
-    "description": "React app for tracking how users spend their time using a responsive day planner and charts. App served from Express, MongoDB used for the database.",
+    "description": "App for designing and displaying custom dashboards for public display. Uses a Rails back end, a React front end and a postgress database. Uses the HTML 5 drag events to allow users to configure dashboards with an intuitice UI.",
+    "repo":"https://github.com/AlexanderCleasby/customDash",
+    "live":"",
     "stack":["rails","react","postgres"]
 },
 {
+    "name":"Your Timelogs",
+    "description":"React app for tracking how users spend their time using a responsive day planner and charts.  All application data is stored in a Mongo DB document database.  Day planner component behaves intuitvly allowing users to click or tap to select the time of a new activity amount their existing activities. Charts offer a visual representation of how user's have spent their time.",
+    "repo":"https://github.com/AlexanderCleasby/timelogs",
+    "stack":["react","node js", "mongoDB"]
+},
+{
     "name":"Taskaroo",
-    "description":"ksdjf",
-    "stack":["rails","js"]
+    "description":"ToDo list app allowing users to share their to-do lists with others. Uses Ruby on Rails whole MVC for the front and back end while also using fetch where appropriate to create a more fluid experience.",
+    "repo":"https://github.com/AlexanderCleasby/taskaroo",
+    "stack":["rails","javascript","postgres"]
 }
 ]
