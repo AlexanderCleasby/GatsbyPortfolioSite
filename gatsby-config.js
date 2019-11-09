@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Alexander Cleasby`,
-    description: `Alexander Cleasby is a developer and web fanatic living in Washington D.C.`,
+    description: `Alexander Cleasby is a developer and web enthusiast living in Washington D.C.`,
     author: `Alexander Cleasby`,
+    github: `https://github.com/AlexanderCleasby/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

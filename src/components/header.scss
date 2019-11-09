@@ -31,13 +31,42 @@
 
 .siteTitle{
     text-align: center;
-    font-size: 9vw;
+    font-size: 300%;
     font-family: 'Fascinate Inline', cursive;
 }
 
+.subheader{
+    @extend .siteTitle;
+    
+    font-size: 150%;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    li{
+        display:inline-block;
+        margin: 2px 20px;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        color: rgba(0,0,0,0.8);
+    }
+}
+
 header{
+    font-family: 'Fascinate Inline', cursive;
     border-bottom: black solid 2px;
     width:100%;
     display: flex;
-    margin-bottom: 50px;;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 960px) {
+    .siteTitle{
+        font-size: 200%;
+    }
+    .subheader{
+        font-size: 150%;
+    }
 }
