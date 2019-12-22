@@ -5,7 +5,7 @@ import Project from './project'
 
 const Projects = () => (
   <React.Fragment>
-  <h1>Projects:</h1>
+  <h1 className="sectionHeader">Projects:</h1>
   <StaticQuery 
     query={graphql`
       query projectsQuery
@@ -15,6 +15,8 @@ const Projects = () => (
             description
             name
             stack
+            repo
+            live
           }
         }
       }

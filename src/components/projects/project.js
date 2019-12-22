@@ -1,13 +1,16 @@
 import React from 'react'
 import Stack from './stack'
 import Slides from './slides'
+import Links from './links'
 
-const Project =(props)=>{
+const Project =({project})=>{
+    
     return <div className="project">
-        <h3>{props.project.name}</h3>
-        <p>{props.project.description}</p>
-        <Slides project={props.project.name} />
-        <Stack stack={props.project.stack} />
+        <h2>{project.name}</h2>
+        <p>{project.description}</p>
+        <Slides project={project.name} />
+        <Stack stack={project.stack} />
+        <Links github={project.repo} live={project.live} />
     </div>
 }
 
