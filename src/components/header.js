@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { FaGithub, FaRegStar } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import './header.scss'
 
 const Header = ({ siteTitle, github }) => (
