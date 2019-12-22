@@ -13,7 +13,7 @@
 
     .screen{
         width:100%;
-        height: 500px;
+        height: 400px;
         background-color: black;
         position: relative;
         .logo{
@@ -30,7 +30,7 @@
     }
 
     .lower {
-        height: 200px;
+        height: 160px;
         border-radius: 0px 0px 20px 20px;
         position: relative;
         .floppy {
@@ -52,16 +52,17 @@
             left: 10%;
         }
     }
-
+    width:90%;
+    margin: 0 auto;
     padding:3%;
     background: linear-gradient(#b1aa8a,#c7bf9d);
     border-radius:2.5%;
 }
 
 .base {
-    height: 140px;
+    height: 120px;
     
-    width: 95%;
+    width: 85%;
     margin: 0 auto;
     background: linear-gradient(#7e785a,#585540);
     border-radius: 0px 0px 20px 20px;
@@ -69,7 +70,7 @@
 
 @media only screen and (max-width: 960px) {
     .macintosh {
-       
+        width:100%;
         .lower {
             height: 100px;
             .apple{
@@ -86,6 +87,7 @@
     }
 
     .base {
+        width:95%;
         height: 70px;
     }
 }
