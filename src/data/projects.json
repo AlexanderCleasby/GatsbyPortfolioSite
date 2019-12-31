@@ -2,13 +2,13 @@
         "name": "Your Timelogs",
         "description": "React app for tracking how users spend their time using a responsive day planner and charts.  All application data is stored in a Mongo DB document database.  Day planner component behaves intuitvly allowing users to click or tap to select the time of a new activity amount their existing activities. Charts offer a visual representation of how user's have spent their time.",
         "repo": "https://github.com/AlexanderCleasby/timelogs",
-        "live": "https://your-timelog.herokuapp.com/",
+        "live": "https://yourtimelog.herokuapp.com/",
         "stack": ["react", "node js", "mongoDB"]
     }, {
         "name": "Custom Dash",
         "description": "App for designing and displaying custom dashboards for public display. Uses a Rails back end, a React front end and a postgress database. Uses the HTML 5 drag events to allow users to configure dashboards with an intuitice UI.",
         "repo": "https://github.com/AlexanderCleasby/customDash",
-        "live": "https://custom-dashboard.herokuapp.com/",
+        "live": "https://customdash.herokuapp.com/",
         "stack": ["rails", "react", "postgres"]
     },
 
