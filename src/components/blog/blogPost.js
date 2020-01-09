@@ -6,11 +6,17 @@ import Parser from 'html-react-parser';
 const BlogPost = ({data}) =>{
     const post = data.markdownRemark
     return <Layout>
-        <h1>{post.frontmatter.title}</h1>
-        <div>
-            {post.timeToRead} minute read.
+        <div className="blog">
+          <div className="body">
+            <div>
+              <h1>{post.frontmatter.title}</h1>
+              <div>
+                  {post.timeToRead} minute read.
+              </div>
+              {Parser(post.html)}
+            </div>
+          </div>
         </div>
-        {Parser(post.html)}
     </Layout>
 }
 
