@@ -3,6 +3,7 @@ path: /blog/gatsby-blog-from-markdown
 date: 2018-12-01
 tags: [my, first, post]
 title: Adding a Blog to Your Gatsby Site From .md Files
+summary: This blog post will walk you through the use of Gatsby JS's Node api and Markdown parser to build a blog for the static site framework 
 ---
 Get ready to get meta, because I am going to walk you through the steps I took to add a blog to the site you are on right now!  My portfolio site is made using Gatsby, a framework for building sites using modern web technologies (React, Webpack, Sass GraphQL) that compile to static HTML in the build process so they load super quick.  Then hydrate after the fact into fully functional React components.  The framework as a result has been picking up alot of steam recently and is used in quite a few [places](https://www.gatsbyjs.org/showcase/).  This post will be a simple walk through of how I added a blog to my portfolio site.  You can pull data from many different sources to create pages in Gatsby (WordPress, Drupal, CSV, JSON) however I am choosing to just go the route of using markdown files.
 ## Set up your dependencies:
