@@ -25,7 +25,7 @@ const BlogSummary = ({post}) => (
 
 const allBlogPosts = graphql`
     query allBlogPosts{
-        allMarkdownRemark {
+      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
           edges {
             node {
               frontmatter {
