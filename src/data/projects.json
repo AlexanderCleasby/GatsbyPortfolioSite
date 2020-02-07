@@ -10,9 +10,13 @@
         "repo": "https://github.com/AlexanderCleasby/customDash",
         "live": "https://customdash.herokuapp.com/",
         "stack": ["rails", "react", "postgres"]
-    },
-
-    {
+    },{
+        "name":"Timelapse Studio",
+        "description":"A native Electron descktop app for building and editing time lapse videos.  Allows the user to export their timelapses as MP4 or GIF.  Only percompiled for Linux, but building and installing for Mac is pretty frictionless.",
+        "repo":"https://github.com/AlexanderCleasby/TimeLapseStudio",
+        "live":"https://github.com/AlexanderCleasby/TimeLapseStudio/releases",
+        "stack":["node","elecron","react"]
+    },{
         "name": "Taskaroo",
         "description": "ToDo list app allowing users to share their to-do lists with others. Uses Ruby on Rails whole MVC for the front and back end while also using fetch where appropriate to create a more fluid experience.",
         "repo": "https://github.com/AlexanderCleasby/taskaroo",
